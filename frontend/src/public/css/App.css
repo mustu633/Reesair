@@ -1,0 +1,229 @@
+/* General */
+
+:root {
+    --blue: #016996;
+    /* --blue: #feba02; */
+    /* --blue: #666; */
+    /* --blue: #666; */
+}
+
+.heading{
+    margin-top: 15px;
+}
+.errMsg{
+    color: red;
+}
+.icon{
+    cursor: pointer;
+    font-size: 1.5rem !important;
+}
+.single_icon:hover{
+    color: var(--blue);
+}
+/* Navbar */
+.navbar{
+    height: 10vh !important;
+    width: 100% !important;
+    padding-left: 20px !important;
+    margin-bottom: 15px !important;
+    background-color: whitesmoke;
+    position: sticky !important;
+    top: 0 !important;
+    left: 0 !important;
+    z-index: 100 !important;
+}
+.drop-menu{
+    background-color: whitesmoke !important;
+}
+.brand-name{
+    color: var(--blue);
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+.navbar-brand{
+    color: var(--blue) !important;
+    font-size: 2rem !important;
+}
+.nav-link{
+    height: 10vh !important;
+    padding: 20px 25px !important;
+}
+.navbar .nav-link:hover{
+    background-color: var(--blue);
+    color: #fff;
+}
+.search-bar{
+    background-color: whitesmoke !important;
+    padding: 0 15px;
+    height: 10vh !important;
+    border: none;
+}
+
+.search-bar .search-btn{
+    background-color: var(--blue) !important;
+    color: #fff !important;
+    padding: 6px 20px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+}
+.search-bar .search-btn p{
+    margin: 0;
+}
+
+.search-bar .search-btn p i{
+    margin-right: 6px;
+}
+
+.search-bar .search-inp{
+    border-radius: 25px;
+    padding: 6px 20px;
+} 
+
+/* icon bar */
+.icon_bar{
+    /* background-color: var(--blue); */
+    /* height: 10vh !important; */
+    padding: auto;
+    /* border-bottom: 1px solid #777777; */
+    margin-bottom: 10px;
+}
+.icon_bar .single_icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+/* .icon_bar .icon{
+    font-size: 30px !important;
+} */
+.icon_bar p{
+    color: #777777;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+ /* Footers */
+.footer{
+    height: 18vh !important;
+    background-color: #ebebeb !important;
+    padding: auto !important;
+ }
+.f-info-links a{
+    text-decoration: none;
+    color: #222222;
+    margin-left: 10px;
+}
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+.f-info{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.f-info-socials a{
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
+
+/* Home  */
+.body{
+    min-height: 66.6vh !important;
+}
+.row{
+    width: 100%;
+    margin: 0 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.row .card{
+    width: 20rem;
+    border: none;
+    margin: 6px !important;
+    text-decoration: none !important;
+}
+.row .card img{
+    height: 25rem !important;
+    width: auto;
+}
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100%;
+    /* background-position: center !important; */
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+/* .card-body{
+    padding: 0 !important;
+} */
+.card-text p{
+    font-weight: 400 !important;
+}
+
+/* show */
+.listing-link{
+    text-decoration: none;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* card effect */
+
+.card-img-overlay{
+    opacity: 0;
+}
+
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: whitesmoke;
+}
+
+/* Add */
+.add-form{
+    height: auto;
+}
+
+/* Edit */
+.edit-form{
+    height: auto;
+}
+
+/* single */
+.card{
+    border: none !important;
+}
+.card .show-img{
+    height: 68vh !important;
+    border-radius: 5px !important;
+}
+.card-body{
+    list-style: none;
+}
+
+/* Review */
+.review-box{
+    justify-content: start;
+    align-items: start;
+}
+.review-box .card{
+    border: 1px solid #dbdbdb !important;
+}
+.stars{
+    color: goldenrod !important;
+}
+
+
+@media (max-width: 786px){
+    .row{
+        flex-direction: column;
+    }
+}
