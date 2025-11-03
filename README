@@ -1,0 +1,87 @@
+Reesair | General Travel Site (Full Stack)
+
+Reesair is a full-stack general travel site, a replica of TripAdvisor, fully responsive and named REESAIR. Users can view listings (hotels, cottages, etc.), add reviews, and authenticated users can manage their own listings with full CRUD operations.
+
+---------------------------------------------------------------------------------------------------------------------
+
+Features
+
+Public Users:
+
+View all listings (hotels, cottages, etc.)
+
+Give reviews on listings
+
+Authenticated Users:
+
+Signup / Login
+
+Add new listings (hotels, cottages, etc.)
+
+Edit or delete their own listings
+
+Delete reviews on their listings
+
+Access control ensures users cannot edit/delete others' listings
+
+---------------------------------------------------------------------------------------------------------------------
+
+Security & Storage:
+
+Authentication & Authorization using JWT
+
+Cloud storage via Cloudinary for images
+
+MongoDB used for storing other data
+
+---------------------------------------------------------------------------------------------------------------------
+
+Tech Stack
+
+Frontend: HTML, CSS, JavaScript, React, Axios, SweetAlert, React Icons, Bootstrap, Bootstrap Icons
+
+Backend: Node.js, Express.js, Mongoose, CORS, express-fileupload, Nodemon
+
+Database: MongoDB
+
+Cloud Storage: Cloudinary
+
+Tools: MongoDB Compass, Postman
+
+---------------------------------------------------------------------------------------------------------------------
+
+Create a .env file inside the folder with the following:
+
+TOKEN_KEY
+DB_URL
+CLOUDINARY_CLOUD_NAME
+CLOUDINARY_API_KEY
+CLOUDINARY_API_SECRET
+
+---------------------------------------------------------------------------------------------------------------------
+
+Install dependencies:
+
+npm install
+
+
+Start server:
+
+npm start
+
+---------------------------------------------------------------------------------------------------------------------
+
+Security & Configuration
+
+.env is added to .gitignore to keep credentials secure
+
+Cloudinary is used for storing images securely
+
+No sensitive information is stored in the repository
+
+---------------------------------------------------------------------------------------------------------------------
+
+👤 Author
+
+Ghulam Mustafa
+GitHub: mustu633
